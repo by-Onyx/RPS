@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/rock"
+        android:layout_gravity="center"
+        android:text="Rock" />
+    <Button
+        android:id="@+id/paper"
+        android:layout_gravity="center"
+        android:text="Paper"/>
+    <Button
+        android:id="@+id/scissors"
+        android:layout_gravity="center"
+        android:text="Scissors" />
+
+</GridLayout>
